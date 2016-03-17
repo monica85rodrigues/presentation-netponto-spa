@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Netponto Attendance Manager">
+    <meta name="keywords" content="HTML,CSS,Angular,JavaScript">
+    <meta name="author" content="Mónica Rodrigues">
+
+    <!-- Minificar e juntar em 1 ficheiro - Usando o Gulp por exemplo -->
+    <link href="/styles/vendor/bootstrap.min.css" rel="stylesheet"/>
+    <link href="/styles/main.css" rel="stylesheet"/>
+
+    <title>Attendance Manager</title>
+</head>
+<body ng-app="attendanceManagerApp">
+
+<div class="container mainContent" ng-controller="AttendanceController">
+    <h1>Netponto Attendance Manager</h1>
+    <div class="filters">
+        <ul class="nav nav-pills">
+            <li ng-class="{active: filters.IsLunch}" role="presentation"><a ng-click="getUsersGoingOrNotGoingLunch(true)" href="#">Going Lunch</a></li>
+            <li ng-class="{active: !filters.IsLunch}" role="presentation"><a ng-click="getUsersGoingOrNotGoingLunch(false)" href="#">Not Going Lunch</a></li>
+            <li ng-class="{active: filters.IsPresent}" role="presentation"><a ng-click="getUsersIsOrNotPresent(true)" href="#">Checkin</a></li>
+            <li ng-class="{active: !filters.IsPresent}" role="presentation"><a ng-click="getUsersIsOrNotPresent(false)" href="#">No Checkin</a></li>
+            <li role="presentation"><a ng-click="resetFilters()" href="#">Reset filters</a></li>
+            <li ng-click="resetAll()" role="presentation" style="float: right"><a href="#">Reset all</a></li>
+        </ul>
+    </div>
+    <div class="users">
+        <div class="user col-md-4 col-sm-12 col-xs-12" ng-class="{checkin: usr.IsPresent}" ng-repeat="usr in users | filter: filters | orderBy: 'Name'">
+            <img ng-src="{{usr.PhotoUrl}}" width="100%" height="100%"/>
+            <img class="lunch" ng-show="usr.IsLunch" ng-src="/images/lunch3.png"/>
+            <div class="content">
+                <div class="name">{{usr.Name}}</div>
+                <div class="actions">
+                    <a href="" ng-click="$parent.checkIn(usr)">CheckIn</a>
+                    <a href="" ng-click="$parent.goLunch(usr)">Lunch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Minificar e juntar em 1 ficheiro - Usando o Gulp por exemplo -->
+<script src="/scripts/vendor/angular.min.js"></script>
+<script src="/scripts/app/app.js"></script>
+<script src="/scripts/app/services/app-attendance-service.js"></script>
+<script src="/scripts/app/controllers/app-attendance-controller.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+﻿/* Styles go here */
+
+.filters {
+    margin-top: 22px;
+}
+
+.user{
+  height: 160px;
+  position: relative;
+  border: 1px solid #363b3f;
+  width: 160px;
+  background-color: #363b3f;
+  color: #000;
+  margin-top: 10px;
+  margin-right: 10px;
+  box-shadow: 3px 3px 3px #888888;
+}
+
+.user .content {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 130px;
+  height: 33%;
+}
+
+.user .actions {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.actions a{
+  color: #fff;
+}
+
+.checkin {
+    background-color: green;
+}
+
+.lunch {
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

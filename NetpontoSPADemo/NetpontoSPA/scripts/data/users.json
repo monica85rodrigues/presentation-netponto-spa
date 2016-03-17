@@ -1,0 +1,105 @@
+﻿[{
+	"Name": "Sofia Azevedo",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/sofia.jpg"
+}, {
+	"Name": "Bruno França",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/bruno-fr.jpg"
+}, {
+	"Name": "Cláudia Carvalho",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/claudia.jpg"
+}, {
+	"Name": "João Costa",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/joao.jpg"
+}, {
+	"Name": "Diogo Neves",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/diogo.jpg"
+},
+ {
+	"Name": "Eugenia",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/eugenia.jpg"
+},
+{
+	"Name": "João Livio",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/livio.jpg"
+},
+{
+	"Name": "Nuno Gomes",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/nuno-gomes.jpg"
+},
+{
+	"Name": "Paulo Morgado",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/paulo.jpg"
+},
+{
+	"Name": "André Melancia",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/melancia.jpg"
+},
+{
+	"Name": "António Lourenço",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/antonio.jpg"
+},
+{
+	"Name": "Liliana Carvalho",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/liliana.jpg"
+},
+{
+	"Name": "João Melo",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/joaomelo.jpg"
+},
+{
+	"Name": "João Manso",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/joaomanso.jpg"
+},
+{
+	"Name": "Vitor Tomaz",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/vitortomaz.jpg"
+},
+{
+	"Name": "Sara Silva",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/sarasilva.jpg"
+},
+{
+	"Name": "Nuno Cancelo",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/nunocancelo.jpg"
+},
+{
+	"Name": "Caio Proiete",
+	"IsPresent": false,
+	"IsLunch": false,
+	"PhotoUrl": "/images/caioproiete.jpg"
+}
+]
