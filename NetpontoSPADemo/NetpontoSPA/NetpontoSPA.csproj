@@ -72,8 +72,8 @@
     <Content Include="images\paulo.jpg" />
     <Content Include="images\sarasilva.jpg" />
     <Content Include="images\vitortomaz.jpg" />
-    <Content Include="scripts\app\controllers\app-attendance-controller.js" />
-    <Content Include="scripts\app\services\app-attendance-service.js" />
+    <Content Include="app\controllers\app-attendance-controller.js" />
+    <Content Include="app\services\app-attendance-service.js" />
     <Content Include="scripts\data\users.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -91,7 +91,7 @@
     <Content Include="images\joao.jpg" />
     <Content Include="images\sofia.jpg" />
     <Content Include="index.html" />
-    <Content Include="scripts\app\app.js" />
+    <Content Include="app\app.js" />
     <Content Include="scripts\vendor\angular.min.js" />
     <Content Include="styles\main.css" />
     <Content Include="styles\vendor\bootstrap.min.css" />
