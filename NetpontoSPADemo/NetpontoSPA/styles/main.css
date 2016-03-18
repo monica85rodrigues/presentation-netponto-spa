@@ -1,10 +1,10 @@
 ﻿/* Styles go here */
 
-.filters {
+.users .filters {
     margin-top: 22px;
 }
 
-.user{
+.users .user{
   height: 160px;
   position: relative;
   border: 1px solid #363b3f;
@@ -16,7 +16,7 @@
   box-shadow: 3px 3px 3px #888888;
 }
 
-.user .content {
+.users .user .content {
   margin: 0;
   position: absolute;
   bottom: 0;
@@ -26,21 +26,26 @@
   height: 33%;
 }
 
-.user .actions {
+.users .user .actions {
     position: absolute;
     right: 0;
     bottom: 0;
 }
 
-.actions a{
+.users .actions a{
   color: #fff;
 }
 
-.checkin {
+.users .photo {
+    width: 100%;
+    height: 100%;
+}
+
+.users .checkin {
     background-color: green;
 }
 
-.lunch {
+.users .lunch {
     display: block;
     margin: 0;
     position: absolute;

@@ -1,5 +1,8 @@
 ﻿(function() {
 
+    angular.module("attendanceManagerApp")
+           .controller("AttendanceController", ["$scope", "$http", "attendanceService", AttendanceController]);
+
     function AttendanceController($scope, $http, attendanceService) {
 
         $scope.filters = {};
@@ -42,8 +45,5 @@
         attendanceService.getAttendances().then(onUsersCompleted, onError);
      
     }
-
-    var module = angular.module("attendanceManagerApp");
-    module.controller("AttendanceController", ["$scope", "$http","attendanceService", AttendanceController]);
 
 }());
