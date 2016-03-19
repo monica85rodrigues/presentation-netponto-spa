@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NetpontoSPA")]
+[assembly: AssemblyTitle("NetpontoAttendanceManager.Web")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("NetpontoSPA")]
+[assembly: AssemblyProduct("NetpontoAttendanceManager.Web")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("abbad95b-eba8-4fbf-a1af-d95760f69945")]
+[assembly: Guid("47e3dfcc-266f-40fc-8a3c-27739f15465e")]
 
 // Version information for an assembly consists of the following four values:
 //

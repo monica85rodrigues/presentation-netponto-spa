@@ -1,0 +1,6 @@
+D:\GIT\presentation-netponto-spa\NetpontoSPADemo\NetpontoAttendance.Web\bin\NetpontoAttendance.Web.dll.config
+D:\GIT\presentation-netponto-spa\NetpontoSPADemo\NetpontoAttendance.Web\bin\NetpontoAttendance.Web.dll
+D:\GIT\presentation-netponto-spa\NetpontoSPADemo\NetpontoAttendance.Web\bin\NetpontoAttendance.Web.pdb
+D:\GIT\presentation-netponto-spa\NetpontoSPADemo\NetpontoAttendance.Web\obj\Debug\NetpontoAttendance.Web.csprojResolveAssemblyReference.cache
+D:\GIT\presentation-netponto-spa\NetpontoSPADemo\NetpontoAttendance.Web\obj\Debug\NetpontoAttendance.Web.dll
+D:\GIT\presentation-netponto-spa\NetpontoSPADemo\NetpontoAttendance.Web\obj\Debug\NetpontoAttendance.Web.pdb
