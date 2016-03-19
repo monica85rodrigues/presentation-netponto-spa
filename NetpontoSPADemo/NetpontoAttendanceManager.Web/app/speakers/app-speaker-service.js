@@ -4,7 +4,7 @@
     var SpeakersService = function ($http) {
 
         var servicesUrls = {
-            speakers: "/data/speakers/speakers.json"
+            speakers: "/app/speakers/speakers.json"
         };
 
         var getSpeakers = function () {
@@ -19,7 +19,7 @@
 
     };
 
-    angular.module("netpontoManagerApp").factory("speakersService ", ["$http", SpeakersService]);
+    angular.module("netpontoManagerApp").factory("speakersService", ["$http", SpeakersService]);
 
 
 }());
